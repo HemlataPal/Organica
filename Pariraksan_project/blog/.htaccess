@@ -1,0 +1,2 @@
+# Set PHP handler to application/x-httpd-phpbetas on Mon Nov 23 15:30:24 MST 2015.
+AddHandler application/x-httpd-phpbetas .php

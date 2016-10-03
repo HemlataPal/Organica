@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body { margin:0px auto; padding:0px; font-family:Arial, Helvetica, sans-serif}
+.clr { clear:both !important; margin-top:10px}
+.wrapp { width:100%; margin:0px auto; padding:0px;}
+.background1 {
+	background: url(imgs/con-bg.jpg);
+	background-size: cover;
+	position:relative;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	z-index:1;
+}
+.background2 {
+	background:url(imgs/con-bg.jpg);
+	background-size: cover;
+	position:relative;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	z-index:1;
+}
+.mn_tp { margin:0px auto; padding:0px; width:100%; background:#000; height:80px; opacity:0.8 }
+.container { width:1080px; margin:0px auto; padding:0px}
+.hed_mn { margin:0px auto; padding:0px; width:100%; height:140px }
+.hed_mn img { margin:0px auto; margin-top:60px; padding:0px; float:left; margin-left:35%}
+.hed_mn2 { margin:0px auto; padding:0px; width:100%; font-size:24px; color:#51AD00}
+.hed_mn2 img { margin:0px auto; padding:0px; float:left; margin-left:20px; margin-top:10px; width:300px; height:60px}
+.lft_side { width:40%; float:left}
+.rht_side { width:100%; margin:0px auto; margin-top:60px}
+.rht_side form { margin:0px auto; width:70%}
+.in_rht2 { width:100%; margin:0px auto; padding:0px !important; text-align:center !important; margin-top:140px}
+.in_rht2 a { background:#FF6600; color:#FFF; padding:15px 60px; text-decoration:none; margin-top:20px; border-radius:5px; text-align:center}
+.rht_side table { padding:100px ; border-radius:10px; border:solid 5px #FF6600; background: #000; opacity:0.9; margin:0px auto}
+.rht_side table td { font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#FFF}
+.rht_side table tr td input { height:40px; padding:10px; border-radius:5px;}
+.rht_side button { cursor:pointer; padding:5px 58px; background:#FF6501; border-radius:5px; color:#000; font-size:12px; text-transform:uppercase; font-family:Arial, Helvetica, sans-serif; position:absolute; z-index:9999; clear:both; margin:10px 0px 0px 83px; border: solid 1px #FFf}
+.sng_out { float:right; color:#FFF; font-size:12px; font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; margin-top:30px; font-weight:700}
+.sng_out a { color:#FF6700; font-size:12px; font-family:Arial, Helvetica, sans-serif; text-transform:uppercase;  font-weight:700}
+
+.mnz_portf { width: 40%;
+margin: 0px auto;
+padding: 0px;
+float: right;
+position: relative;
+z-index: 1;
+margin-top: -320px;
+margin-right:406px;
+background: #000;
+border-radius:10px;
+border:solid 2px #F4761E;
+color:#FFF !important; text-align:center !important}
+
+.mnz_portf a {color: #FFF;
+text-decoration: none;
+background: none repeat scroll 0% 0% #F4761E;
+padding: 10px 110px;
+text-align:center;
+border-radius: 5px;
+font-size: 12px;
+text-transform: uppercase;
+font-weight: 700;
+float: left;
+margin: 20px 10px 0px 30px; border:solid 2px #CCC}
+.mnz_portf form { float:left; margin:0px auto; margin:0px 0px 20px 30px; font-size:12px; text-transform:uppercase; font-weight:700;}
+
+.mnz_portf form button { background:#F4761E; border-radius:5px; padding:10px 60px; float:right; margin:-5px 10px 0px 0px; cursor:pointer}
+
+.mnz_por { width:100%; margin:0px auto; padding:0px}
+.singl_port { width: 32.5%;
+float: left;
+margin-left: 3px;
+overflow: hidden;
+margin-top: 5px;}
+.singl_port img { width:180px; height:100px; float:left; overflow:hidden}
+.singl_port a { padding:2px 30px; text-align:center; margin:5px 0px 3px 40px; float:left; color:#000 !important}
+
+.mnz_tm { width:100%; margin:0px auto; padding:0px}
+.mnz_tm span { width: 30%;
+float: left;
+text-align: left;
+padding: 7px 10px;
+margin: 0px 2px 2px 0px !important;
+color: #FFF;}
+.mnz_tm input { width: 60%;
+float: left;
+background: #FFF;
+padding: 3px 10px; color:#000; margin-bottom:5px}
+.mnz_tm select{ width: 60%;
+float: left;
+background: #FFF;
+padding: 3px 10px; color:#333; font-size:12px; margin-bottom:5px}
+
+.mnz_tm form button { background:#F4761E; border-radius:5px; padding:10px 60px; float:left; margin:10px 10px 0px 160px; cursor:pointer}
+
+
+
+
+.mnz_portf2 { width: 40%;
+margin: 0px auto;
+padding: 0px;
+float: right;
+position: relative;
+z-index: 1;
+margin-top: -350px;
+margin-right:60px;
+background: #000;
+border-radius:10px;
+border:solid 2px #F4761E;
+color:#FFF !important; text-align:center !important}
+
+.mnz_portf2 a {color: #FFF;
+text-decoration: none;
+background: none repeat scroll 0% 0% #F4761E;
+padding: 10px 110px;
+text-align:center;
+border-radius: 5px;
+font-size: 12px;
+text-transform: uppercase;
+font-weight: 700;
+float: left;
+margin: 20px 10px 0px 30px; border:solid 2px #CCC}
+.mnz_portf2 form { float:left; margin:0px auto; margin:0px 0px 20px 30px; font-size:12px; text-transform:uppercase; font-weight:700;}
+
+.mnz_portf2 form button { background:#F4761E; border-radius:5px; padding:10px 60px; float:right; margin:-5px 10px 0px 0px; cursor:pointer}
+
+.mnz_por2 { width:100%; margin:0px auto; padding:0px}
+.singl_port2 { width: 24.5%;
+float: left;
+margin-left: 2px;
+overflow: hidden;
+margin-top: 5px; font-size:11px}
+.singl_port2 img { width:133px; height:90px; float:left; overflow:hidden}
+.singl_port2 a { padding:2px 30px; text-align:center; margin:5px 0px 3px 15px; float:left; color:#000 !important}
+
+.mnz_tm { width:100%; margin:0px auto; padding:0px}
+.mnz_tm span { width: 30%;
+float: left;
+text-align: left;
+padding: 7px 10px;
+margin: 0px 2px 2px 0px !important;
+color: #FFF;}
+.mnz_tm input { width: 60%;
+float: left;
+background: #EBECED;
+padding: 3px 10px; color:#000; margin-bottom:5px}
+
+.mnz_tm form button { background:#F4761E; border-radius:5px; padding:10px 60px; float:left; margin:10px 10px 0px 160px; cursor:pointer}
